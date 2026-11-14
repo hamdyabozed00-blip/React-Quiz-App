@@ -1,0 +1,26 @@
+/* body {
+  background-image: url("./assets/5976825692995391405_121.jpg");
+} */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #312e81 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.App {
+  text-align: center;
+}
+.cardchoose {
+  transition: transform .5s ease ;
+}
+
+.cardchoose .active{
+  border: 2px solid blue ;
+  
+}
